@@ -1,0 +1,51 @@
+Algoritmo "calculo_media"
+
+Var
+   P1, E1, E2, X, SUB, API, EXF: real
+   media, nota, nota_final: real
+
+Inicio
+
+   escreval("Qual é suas notas?")
+
+   escreval("P1:")
+   leia(P1)
+
+   escreval("E1:")
+   leia(E1)
+
+   escreval("E2:")
+   leia(E2)
+
+   escreval("X:")
+   leia(X)
+
+   escreval("SUB:")
+   leia(SUB)
+
+   escreval("API:")
+   leia(API)
+
+   media <- P1 * 0.5 + E1 * 0.2 + E2 * 0.3 + X + SUB * 0.15
+
+   se media > 5.9 entao
+      nota <- (media * 0.5) + (API * 0.5)
+   senao
+      nota <- media * 0.5
+   fimse
+
+   se (nota > 4) e (nota < 6) entao
+   escreval("O aluno ficou de exame")
+   escreval("Digite sua nota do EXF:")
+   leia(EXF)
+   fimse
+
+   se nota > EXF entao
+      nota_final <- nota
+   senao
+      nota_final <- EXF
+   fimse
+
+   escreval("Sua nota final é: ", nota_final)
+
+Fimalgoritmo
