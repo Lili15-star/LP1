@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.MenuAtividade1Controller">
+   <children>
+      <Label alignment="CENTER" layoutX="187.0" layoutY="85.0" text="MENU ATIVIDADE 1">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnMercado" layoutX="111.0" layoutY="308.0" mnemonicParsing="false" onAction="#irMercado" prefHeight="35.0" prefWidth="390.0" text="Compra Mercado" />
+      <Button fx:id="btnLogin" layoutX="111.0" layoutY="230.0" mnemonicParsing="false" onAction="#irLogin" prefHeight="46.0" prefWidth="86.0" text="Login" />
+      <Button fx:id="btnMultiplo" layoutX="399.0" layoutY="229.0" mnemonicParsing="false" onAction="#itMultiplo" prefHeight="46.0" prefWidth="98.0" text="Múltiplo" />
+      <Button fx:id="btnViagem" layoutX="399.0" layoutY="149.0" mnemonicParsing="false" onAction="#irViagem" prefHeight="46.0" prefWidth="98.0" text="Viagem" />
+      <Button fx:id="btnTemperatura" layoutX="245.0" layoutY="230.0" mnemonicParsing="false" onAction="#irTemperatura" prefHeight="45.0" prefWidth="109.0" text="Temperatura" />
+      <Button fx:id="btnAluguelCarro" layoutX="245.0" layoutY="149.0" mnemonicParsing="false" onAction="#irAluguelCarro" prefHeight="46.0" prefWidth="110.0" text="Alguel Carro " />
+      <Button fx:id="btnCamelo" layoutX="111.0" layoutY="149.0" mnemonicParsing="false" onAction="#irCamelo" prefHeight="46.0" prefWidth="86.0" text="Camelo" />
+      <Button fx:id="btnHome" layoutX="24.0" layoutY="326.0" mnemonicParsing="false" onAction="#irHome" text="🏠">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

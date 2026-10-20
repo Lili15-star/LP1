@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PessoaController">
+   <children>
+      <Label layoutX="173.0" layoutY="42.0" text="O QUE DESEJA FAZER?">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnCorrer" layoutX="111.0" layoutY="273.0" mnemonicParsing="false" onAction="#correr" text="Correr" />
+      <Button fx:id="btnPedalar" layoutX="230.0" layoutY="273.0" mnemonicParsing="false" onAction="#Pedalar" text="Pedalar" />
+      <Button fx:id="btnTreinar" layoutX="374.0" layoutY="273.0" mnemonicParsing="false" onAction="#treinar" text="Treinar" />
+      <Label layoutX="111.0" layoutY="115.0" text="NOME:" />
+      <Label layoutX="111.0" layoutY="162.0" text="IDADE:" />
+      <Label layoutX="113.0" layoutY="213.0" text="ALTURA:" />
+      <TextField fx:id="txtNome" layoutX="197.0" layoutY="111.0" onAction="#inserirNome" />
+      <TextField fx:id="txtIdade" layoutX="197.0" layoutY="158.0" onAction="#inserirIdade" />
+      <TextField fx:id="txtAltura" layoutX="197.0" layoutY="209.0" onAction="#inserirAltura" />
+      <Label fx:id="mostrarAcao" layoutX="101.0" layoutY="310.0" prefHeight="67.0" prefWidth="409.0" textAlignment="CENTER" />
+      <Button fx:id="btnHome" layoutX="25.0" layoutY="318.0" mnemonicParsing="false" onAction="#irHome" text="🏠">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

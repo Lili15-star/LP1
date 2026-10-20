@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.MenuController">
+   <children>
+      <Button fx:id="btnClasseAtividade1" layoutX="71.0" layoutY="187.0" mnemonicParsing="false" onAction="#irParaAtividade1" prefHeight="43.0" prefWidth="141.0" text="Classes atividade 1" />
+      <Button fx:id="btnClasseAtividade2" layoutX="389.0" layoutY="187.0" mnemonicParsing="false" onAction="#irParaAtividade2" prefHeight="43.0" prefWidth="142.0" text="Classe atividade 2" />
+      <Label alignment="CENTER" layoutX="246.0" layoutY="75.0" text="MENU">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
