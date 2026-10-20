@@ -13,11 +13,11 @@ public class Arvore {
     }
 
     String cortar(){
-        return ("A árvore da "+folhagem+" e da " +especie+" do tamanho "+tamanho+" caiu pois você cortou ela");
+        return ("A árvore de folhagem "+folhagem+" e da espécie " +especie+" do tamanho "+tamanho+ " metros"+" caiu pois você cortou ela");
     }
 
     String cuidar(){
-        return ("A árvore da "+folhagem+" e da " +especie+" do tamanho "+tamanho+" cresceu e floresceu porque você cuidou dela");
+        return ("A árvore de folhagem "+folhagem+" e da espécie " +especie+" do tamanho "+tamanho+" metros"+" cresceu e floresceu porque você cuidou dela");
     }
 
 

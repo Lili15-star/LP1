@@ -14,7 +14,7 @@ public class CalculadoraDeViagem {
         }
 
         double total = valorGasto - desconto;
-        return (descontar + " Para percorrer: " + DistanciaViagem + " Você irá gastar: " + total);
+        return (descontar + " Para percorrer: " + DistanciaViagem + " Km"+ " Você irá gastar: " + total + "Reais");
     }
 }
 
